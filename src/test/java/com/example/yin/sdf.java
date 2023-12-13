@@ -1,4 +1,6 @@
 package com.example.yin;
 
-public class sdf {
+public class sdf
+{
+    int a;
 }
