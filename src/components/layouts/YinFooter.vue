@@ -28,7 +28,8 @@ export default defineComponent({
 .yin-footer {
   width: 100%;
   height: $footer-height;
-  padding: 20px 0;
+  // padding: 10px 0;
+  padding-bottom: 80px;
   box-sizing: border-box;
   font-size: 14px;
   @include layout(center, center, column);

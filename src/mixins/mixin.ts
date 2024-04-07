@@ -100,6 +100,7 @@ export default function () {
       case RouterName.SongSheetDetail:
       case RouterName.Singer:
       case RouterName.SingerDetail:
+      case RouterName.Create:
       case RouterName.Personal:
       case RouterName.PersonalData:
       case RouterName.Setting:
