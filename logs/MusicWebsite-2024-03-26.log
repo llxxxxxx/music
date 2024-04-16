@@ -1,0 +1,50 @@
+2024-03-26 13:47:21 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_381 on WIN-O9P19047KVL with PID 4220 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2024-03-26 13:47:22 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-03-26 13:47:22 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-26 13:47:22 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-26 13:47:30 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-03-26 13:47:30 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 8213 ms
+2024-03-26 13:47:34 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2024-03-26 13:47:36 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2024-03-26 13:47:36 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 18.546 seconds (JVM running for 34.995)
+2024-03-26 13:54:59 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2024-03-26 13:54:59 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 2 ms
+2024-03-26 13:54:59 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2024-03-26 13:55:00 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@307ff299 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2fba0e2b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a1d48b2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d0633bc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b8cab7c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43073d2e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4905c4ba (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38c6f477 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@302fc63d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:00:52 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bbfb9bb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 14:03:28 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+2024-03-26 14:03:28 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+2024-03-26 15:14:12 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_381 on WIN-O9P19047KVL with PID 8240 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2024-03-26 15:14:13 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2024-03-26 15:14:14 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-26 15:14:14 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-26 15:14:46 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2024-03-26 15:14:47 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 32478 ms
+2024-03-26 15:14:50 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2024-03-26 15:14:51 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2024-03-26 15:14:51 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 47.848 seconds (JVM running for 77.831)
+2024-03-26 15:20:59 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2024-03-26 15:20:59 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2024-03-26 15:20:59 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2024-03-26 15:21:00 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2024-03-26 15:25:00 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@680a89d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:00 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1bdd7cc9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:00 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@157988c9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:54 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65a6f819 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:54 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6db9b202 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:54 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73cfed60 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:54 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a13e0e2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:54 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ccb53 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:25:54 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2cdd1d6f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:27:20 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66fb3fb5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-03-26 15:31:42 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+2024-03-26 15:31:42 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.

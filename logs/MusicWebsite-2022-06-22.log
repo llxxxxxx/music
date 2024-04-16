@@ -1,0 +1,18 @@
+2022-06-22 21:11:43 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_91 on LAPTOP-84DB3AUV with PID 161256 (C:\Users\java1234\Desktop\music-website-master\music-server\target\classes started by java1234 in C:\Users\java1234\Desktop\music-website-master\music-server)
+2022-06-22 21:11:43 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2022-06-22 21:11:43 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-22 21:11:43 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-22 21:11:44 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2022-06-22 21:11:44 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1403 ms
+2022-06-22 21:11:45 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2022-06-22 21:11:45 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2022-06-22 21:11:45 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 2.375 seconds (JVM running for 3.889)
+2022-06-22 21:13:17 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2022-06-22 21:13:17 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2022-06-22 21:13:17 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2022-06-22 21:13:17 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2022-06-22 21:13:57 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /favicon.ico
+2022-06-22 21:17:59 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /1552354056660L1.jpg
+2022-06-22 21:20:19 WARN [org.springframework.web.servlet.PageNotFound]: No mapping for GET /favicon.ico
+2022-06-22 22:19:55 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+2022-06-22 22:19:55 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.

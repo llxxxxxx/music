@@ -1,0 +1,344 @@
+2023-11-21 09:43:10 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 17.0.8 on WIN-O9P19047KVL with PID 5556 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 09:43:11 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 09:43:11 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:43:11 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:43:12 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 09:43:12 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1327 ms
+2023-11-21 09:43:12 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-11-21 09:43:12 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-11-21 09:43:12 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 2.068 seconds (JVM running for 3.136)
+2023-11-21 09:43:25 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:43:25 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:43:25 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 17.0.8 on WIN-O9P19047KVL with PID 5556 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 09:43:25 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 09:43:25 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: No MyBatis mapper was found in '[com.example.yin.dao]' package. Please check your configuration.
+2023-11-21 09:43:25 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: No MyBatis mapper was found in '[com.example.yin]' package. Please check your configuration.
+2023-11-21 09:43:25 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 09:43:25 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 270 ms
+2023-11-21 09:43:25 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext]: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+2023-11-21 09:43:25 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-21 09:43:25 ERROR [org.springframework.boot.SpringApplication]: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.yin.YinMusicApplication.main(YinMusicApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b9f87718.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b9f87718$$FastClassBySpringCGLIB$$b9edd9e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b9f87718.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 38 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 40 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 more
+2023-11-21 09:43:27 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:43:27 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:43:27 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 17.0.8 on WIN-O9P19047KVL with PID 5556 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 09:43:27 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 09:43:27 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 09:43:27 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 279 ms
+2023-11-21 09:43:27 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-11-21 09:43:27 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-11-21 09:43:27 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 0.409 seconds (JVM running for 18.222)
+2023-11-21 09:43:27 INFO [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener]: Condition evaluation unchanged
+2023-11-21 09:52:19 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:52:19 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:52:19 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 17.0.8 on WIN-O9P19047KVL with PID 5556 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 09:52:19 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 09:52:20 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: No MyBatis mapper was found in '[com.example.yin.dao]' package. Please check your configuration.
+2023-11-21 09:52:20 WARN [org.mybatis.spring.mapper.ClassPathMapperScanner]: No MyBatis mapper was found in '[com.example.yin]' package. Please check your configuration.
+2023-11-21 09:52:20 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 09:52:20 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 191 ms
+2023-11-21 09:52:20 WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext]: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+2023-11-21 09:52:20 INFO [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-21 09:52:20 ERROR [org.springframework.boot.SpringApplication]: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.yin.YinMusicApplication.main(YinMusicApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [G:\音乐3\源码\music-server\target\classes\mapper\AdminMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b9f87718.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b9f87718$$FastClassBySpringCGLIB$$b9edd9e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b9f87718.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 38 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 40 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.yin.domain.Admin'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.yin.domain.Admin
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 more
+2023-11-21 09:52:25 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:52:25 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:52:25 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 17.0.8 on WIN-O9P19047KVL with PID 5556 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 09:52:25 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 09:52:25 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 09:52:25 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 390 ms
+2023-11-21 09:52:26 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-11-21 09:52:26 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-11-21 09:52:26 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 0.611 seconds (JVM running for 556.62)
+2023-11-21 09:52:26 INFO [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener]: Condition evaluation unchanged
+2023-11-21 09:52:52 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_381 on WIN-O9P19047KVL with PID 1316 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 09:52:52 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 09:52:52 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:52:52 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:52:53 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 09:52:53 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 1088 ms
+2023-11-21 09:52:54 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-11-21 09:52:54 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-11-21 09:52:54 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 1.785 seconds (JVM running for 2.688)
+2023-11-21 09:57:10 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-11-21 09:57:10 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-11-21 09:57:10 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-11-21 09:57:10 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-11-21 09:59:23 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76c0ec9d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30cb84a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@650f4ac0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@798cdb7f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70ee350c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@202a7730 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5fd367d6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@409b1870 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41dc033a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@323c6fc6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:05:12 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76155380 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:10:23 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+2023-11-21 10:10:23 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+2023-11-21 10:10:30 INFO [com.example.yin.YinMusicApplication]: Starting YinMusicApplication using Java 1.8.0_381 on WIN-O9P19047KVL with PID 6824 (G:\音乐3\源码\music-server\target\classes started by Administrator in G:\音乐3\源码\music-server)
+2023-11-21 10:10:30 INFO [com.example.yin.YinMusicApplication]: No active profile set, falling back to default profiles: default
+2023-11-21 10:10:30 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 10:10:30 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 10:10:32 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-11-21 10:10:33 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2430 ms
+2023-11-21 10:10:33 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-11-21 10:10:33 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-11-21 10:10:33 INFO [com.example.yin.YinMusicApplication]: Started YinMusicApplication in 3.548 seconds (JVM running for 7.044)
+2023-11-21 10:11:09 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-11-21 10:11:09 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 0 ms
+2023-11-21 10:11:09 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-11-21 10:11:09 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c520d8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@429039b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@28c62026 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b37de56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e814cfd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@484cae4e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61b6f48b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14065385 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1064135c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:25:45 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d77e1c0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2226d08 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2918f58 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f761d0c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ead71c7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1868acea (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@797cfa40 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79bf8a52 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cfa9fe1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@319f253b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:37:08 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a87768 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ab21b88 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d4510ad (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b1af98 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@68358a1d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4c9fc426 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@198a7560 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1648c4a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11ff16be (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52e9d110 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 10:51:18 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e8ce3f6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3623bcc2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a0ed996 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ed08513 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5408628f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@519232c2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7321347f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ab34585 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1242503b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30d110ef (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:00:14 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59daf143 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72aa16d3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ff92e5f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a3b8d81 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6dfd1720 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59833095 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d2b5fb4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55132418 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a78d775 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44b3a547 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:16:16 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bc1903f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57050320 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@225deea8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d0b67ee (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50a84ccc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@279cb9d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70b558b1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6be37adb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@106fd9d4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7de36d3b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:24:48 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@47547fec (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34e59e9f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@155c5514 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b3947fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ed70af2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b13a464 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@794d63fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c4fdf19 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@755c6fab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@713f3e8e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:32:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@383db61d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a361cca (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e234d42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4981686c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55b3c278 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4c395a4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e94d591 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54dfe827 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5b41a82a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60badb12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:35:03 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f14cebb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76393ba8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71b68ae3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70c488b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66b89912 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d85e43f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22304a36 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@247203d6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@53f9afd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7466b6a2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:38:49 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76538614 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2f0f410a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4da9584b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51677518 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37ad634a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d8f2fc1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2c2f0866 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48dd3a6b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4333b6d6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@775c154c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:43:04 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@571a0899 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fdc68ee (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a57b43a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c9b31dd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10ecbdb8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9245d1c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e85de66 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b3509b2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ec17a11 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25a61a68 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:46:37 WARN [com.zaxxer.hikari.pool.PoolBase]: HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55208654 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-21 11:48:28 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+2023-11-21 11:48:28 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
