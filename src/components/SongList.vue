@@ -18,7 +18,16 @@
                       songName: scope.row.name,
                     })
                   ">下载</el-dropdown-item>
+                  <el-dropdown-item
+                  :icon="Download"
+                  @click="
+                    downloadMusic({
+                      songUrl: scope.row.url,
+                      songName: scope.row.name,
+                    })
+                  ">加入歌单</el-dropdown-item>
                 <el-dropdown-item :icon="Delete" v-if="show" @click="deleteCollection({ id: scope.row.id })">删除</el-dropdown-item>
+
               </el-dropdown-menu>
             </template>
           </el-dropdown>

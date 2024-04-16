@@ -9,7 +9,7 @@ export const enum NavName {
   SignIn = "登录",
   SignUp = "注册",
   SignOut = "退出",
-  Create = "共创",
+  Create = "音乐上传",
 }
 
 // 左侧导航栏
@@ -26,10 +26,10 @@ export const HEADERNAVLIST = [
     name: NavName.Singer,
     path: RouterName.Singer,
   },
-  {
-    name: NavName.Create,
-    path: RouterName.Create,
-  },
+  // {
+  //   name: NavName.Create,
+  //   path: RouterName.Create,
+  // },
 ];
 
 // 右侧导航栏
@@ -57,5 +57,9 @@ export const MENULIST = [
   {
     name: NavName.SignOut,
     path: RouterName.SignOut,
+  },
+  {
+    name: NavName.Create,
+    path: RouterName.Create,
   },
 ];
